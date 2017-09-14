@@ -74,6 +74,10 @@ public class Zaino {
 		if(costo(parziale) > costo(best)){
 			//trovato soluzione migliore
 			//devo salvarla in best
+			
+			best.clear();
+			best.addAll(parziale);
+			
 			System.out.println("parziale: " + parziale);
 		}
 		
