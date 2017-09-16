@@ -49,7 +49,7 @@ public class Zaino {
 		
 		Set<Pezzo> soluzione = z.risolvi();
 		
-		System.out.println(soluzione);
+		System.out.println("soluzione: " + soluzione);
 		
 		
 	}
